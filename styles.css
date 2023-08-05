@@ -1,0 +1,160 @@
+
+body, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+li {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about {
+  font-size: larger;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+  background-color: #000000;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.portfolio {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.portfolio-item {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.portfolio-item1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.portfolio-item1 img {
+  height: 300px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item img {
+  height: 125px;
+  width: 125px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(236, 236, 236);
+}
+
+.skill-logo {
+  display: inline-block;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.skill-logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px;
+  background-color: #444;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+.accordion {
+  font-size: 30px;
+}
+
+.accordion-item {
+  font-size: 30px;
+}
+
+.accordion-title {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
