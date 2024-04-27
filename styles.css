@@ -160,8 +160,9 @@ footer {
 }
 
 .banner {
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     overflow: hidden; /* Prevents image overflow */
+    text-align: center;
 }
 
 /* Style for the banner image */
