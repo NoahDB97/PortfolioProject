@@ -73,8 +73,7 @@ nav a {
 .portfolio {
   padding: 50px;
   background-color: #fff;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: auto;
 }
 
 .DesignProcess {
