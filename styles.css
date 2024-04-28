@@ -73,7 +73,17 @@ nav a {
 .portfolio {
   padding: 50px;
   background-color: #fff;
+  margin-left: 150px;
+  margin-right: 150px;
 }
+
+.DesignProcess {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
 
 .portfolio-item {
   font-size: 20px;
